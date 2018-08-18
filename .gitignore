@@ -1,0 +1,4 @@
+# Ignore compiled files, these are not needed
+*.d.ts
+*.js
+node_modules

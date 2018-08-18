@@ -1,0 +1,3 @@
+# Remove uncompiled versions, this is not needed
+*.ts
+tsconfig.json
