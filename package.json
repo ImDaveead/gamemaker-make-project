@@ -1,6 +1,6 @@
 {
   "name": "gamemaker-make-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates blank GameMaker Studio 2 projects.",
   "main": "index.js",
   "dependencies": {
