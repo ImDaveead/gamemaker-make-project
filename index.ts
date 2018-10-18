@@ -76,8 +76,8 @@ export async function makeBlankProject(yyp_path: PathLike) {
         "targets": 29263750006690030
     }`;
 
-    await fse.mkdirs(join(dirname(yyp_path.toString()), "options", "inherited"));
-    await fse.writeFile(join(dirname(yyp_path.toString()), "options", "inherited", "options_main.inherited.yy"), mainOptions);
+    await fse.mkdirs(join(dirname(yyp_path.toString()), "options", "main", "inherited"));
+    await fse.writeFile(join(dirname(yyp_path.toString()), "options", "main", "inherited", "options_main.inherited.yy"), mainOptions);
     
     
     function makeRoom(name: string) {

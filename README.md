@@ -1,7 +1,14 @@
 # GameMaker-Make-Project
 Generates a blank GameMaker Studio 2 Project.
 
-## Usage
+## CLI Usage
+`npm i gamemaker-make-project -g`
+
+`gamemaker-make-project <target folder or yyp path>`
+
+`gamemaker-make-project .` - Shorthand for current directory.
+
+## NodeJS Dependency Usage
 `npm i gamemaker-make-project --save`
 
 Call from js...
